@@ -27,6 +27,9 @@ header li {
     text-decoration: underline;
     margin: 20px;
 }
+header a {
+    color: seashell;
+}
 .mission {
     display: flex;
     height: 700px;
@@ -43,4 +46,31 @@ header li {
     background-color: black;
     height: 140px;
     width: 1200px;
+}
+.tea-of-the-month {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.tea {
+    display: block;
+    text-align: center;
+    line-height: 75%;
+}
+.collage {
+    display: inline-flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.collage span {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.collage img{
+    max-width: 300px;
+    max-height: 200px;
 }
