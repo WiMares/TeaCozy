@@ -1,0 +1,46 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+header {
+    display: flex;
+    height: 69px;
+    width: 100%;
+    top: 0%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 100;
+    background-color: black;
+}
+header img {
+    max-height: 50px;
+    margin-left: 10px;
+}
+header li {
+    list-style: none;
+    display: inline-block;
+    text-decoration: underline;
+    margin: 20px;
+}
+.mission {
+    display: flex;
+    height: 700px;
+    width: 100%;
+    padding-top: 61px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.tagline {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    background-color: black;
+    height: 140px;
+    width: 1200px;
+}
